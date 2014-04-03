@@ -47,6 +47,7 @@ background:url('../images/bktrama.png') repeat;
 }
 .logoprinc{
 margin-left:15px;
+margin-top:10px;
 }
 
 @media screen and (max-width:1200px){ 
@@ -94,6 +95,7 @@ width:100px;
 	font-weight:bold;
 	margin-bottom:0px;
 	margin-left:15px;
+	margin-top:30px;
 }
 
 @media screen and (max-width:560px){ 
@@ -132,6 +134,15 @@ width:100px;
 .colorCjaHome3{
 	height: 380px;
 }
+
+@media screen and (max-width:768px){ 
+.colorCjaHome3{
+	height: 720px;
+}
+
+
+}
+
 .colorCjaHome3 .subCajasHome{
 	border: solid 13px #302222;
 }
@@ -154,6 +165,16 @@ text-align:justify;
 .colorCjaHome4 .subCajasHome h2{
 color:#fff;
 font-height:bold;
+margin-bottom:20px;
+}
+
+.colorCjaHome3 .subCajasHome h2{
+
+margin-bottom:10px;
+}
+.colorCjaHome2 .subCajasHome h2{
+
+margin-bottom:20px;
 }
 
 
@@ -179,6 +200,31 @@ width:320px!important;
 	margin-bottom:10px;
 	}
 
+}
+
+.colorCjaHome3 .sexfomreg{
+width:100px;
+margin-top:10px;
+margin-bottom:10px;
+}
+
+.colorCjaHome3 input {
+margin-top:10px;
+margin-bottom:10px;
+}
+
+@media screen and (min-width:1200px){ 
+.blqhome1{
+
+	position: absolute;
+    top: 50%;
+   left: 50%;
+    width:1200px;
+    margin-left: -600px;
+	height: 760px;
+    margin-top: -380px;
+	
+}
 }
 /* Estilos Home  */
 
