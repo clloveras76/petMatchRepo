@@ -146,9 +146,9 @@ width:100px;
 	font-size: 40px;
 }
 
-.colorCjaHome4 .subCajasHome p{
+.colorCjaHome4 .subCajasHome ol li{
 font-size:16px!important;
-line-height: 20px!important;
+line-height: 22px!important;
 }
 
  }
@@ -204,9 +204,9 @@ line-height: 20px!important;
 			background-color: #dc1931;
 }
 
-.colorCjaHome4 .subCajasHome p{
+.colorCjaHome4 .subCajasHome ol li{
 color:#fff;
-font-size:22px;
+font-size:20px;
 line-height:26px;
 text-align:justify;
 }
@@ -275,4 +275,31 @@ margin-bottom:10px;
 }
 }
 /* Estilos Home  */
+
+
+
+/* ESTILOS MAIN SITE*/
+
+/*Menu principal*/
+
+.headerMain{
+background-color:#2f2120;
+
+}
+
+.submenuSuperior1{
+background-color:#e4e4e4;
+height:40px;
+border-bottom: solid 1px #b2b2b2;
+position:relative; 
+margin-top:50px;
+
+}
+.navbar-brand {
+    padding: 11px;
+}
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+    border-color: #2f2120;
+}
+
 
