@@ -32,7 +32,9 @@ font-family: FranklinGothicBookRegular;
 
 }
 
-
+.clearfloat{
+clear:both;
+}
 
 
 /* Estilos Home  */
@@ -65,11 +67,52 @@ margin-left:0px;
 
 .subCajasHome{
 width:100%;
-height:100%;
+height:100%!important;
 border:solid 1px ;
 border-color: transparent;
 padding:10px;
+overflow:hidden;
+
 }
+
+@media screen and (min-width: 770px) and (max-width:990px){ 
+.colorCjaHome3 input {
+margin-top: 5px!important;
+margin-bottom: 5px!important;
+}
+
+.subCajasHome h2{
+font-size:20px;
+margin-top:10px;
+margin-bottom:10px!important;
+}
+
+ .colorCjaHome3 .subCajasHome h2{
+ margin-bottom:-10px!important;
+ }
+
+.subCajasHome p {
+font-size: 18px!important;
+}
+
+.colorCjaHome3 .subCajasHome div{
+padding-left:10px; 
+
+}
+
+}
+
+@media screen and (max-width:770px){ 
+.colorCjaHome3 .subCajasHome div{
+margin-top:-15px;
+}
+
+
+}
+
+
+
+
 
 @media screen and (max-width:990px){ 
 .logoprinc{
@@ -101,6 +144,11 @@ width:100px;
 @media screen and (max-width:560px){ 
 .colorCjaHome1 h1{
 	font-size: 40px;
+}
+
+.colorCjaHome4 .subCajasHome p{
+font-size:16px!important;
+line-height: 20px!important;
 }
 
  }
