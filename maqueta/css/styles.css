@@ -24,6 +24,22 @@
 
 }
 
+
+
+@font-face {
+	font-family: 'MYRIADPROREGULAR';
+	src: url('./MYRIADPROREGULAR.eot');
+	src: local('MYRIADPROREGULAR'), url('./MYRIADPROREGULAR.woff') format('woff'), url('./MYRIADPROREGULAR.ttf') format('truetype');
+}
+/* use this class to attach this font to any element i.e. <p class="fontsforweb_fontid_4410">Text with this font applied</p> */
+.fontsforweb_fontid_4410 {
+	font-family: 'MYRIADPROREGULAR' !important;
+}
+
+/* Font downloaded from FontsForWeb.com */
+
+
+
 /* Fuentes tipográficas  */
 
 /* Estilos Generales */
@@ -36,6 +52,19 @@ font-family: FranklinGothicBookRegular;
 clear:both;
 }
 
+.navbar-collapse .navbar-nav li a{
+	font-family: 'MYRIADPROREGULAR';
+	font-size:16px; 
+	color:#fff!important;
+}
+
+.navbar-collapse .navbar-nav li a:hover{
+color:#ff4f38!important;
+}
+
+.glyphicon:hover {
+color:#ff4f38!important;
+}
 
 /* Estilos Home  */
 
@@ -301,5 +330,86 @@ margin-top:50px;
 .navbar-default .navbar-collapse, .navbar-default .navbar-form {
     border-color: #2f2120;
 }
+
+
+.inconConfiguracion{
+font-size:20px;
+color:#ccc;
+margin-left:15px;
+vertical-align:middle;
+}
+.inconConfiguracion2{
+font-size:20px;
+color:#ccc;
+margin-right:15px;
+vertical-align:middle;
+}
+
+.navbar-brand {
+    padding: 7px;
+
+}
+@media screen and (min-width:1200px){ 
+
+.navbar-brand {
+	margin-right:140px!important;
+}
+
+}
+@media screen and (max-width:1200px){ 
+.contSearch{
+display:none!important;
+}
+.navbar-form {
+width: 90px!important;
+
+}
+.inconConfiguracion {
+margin-left: 6px!important;
+margin-top:5px;
+}
+}
+
+@media screen and (min-width: 770px) and (max-width:990px){ 
+
+.navbar-collapse .navbar-nav li a{
+	font-size:14px;
+}
+
+}
+
+
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+    color: #ff4f38!important;
+    background-color:#2F2120!important;
+
+}
+
+.SubmenuMain{
+width:435px;
+margin: 0 auto;
+
+padding: 0px;	
+padding-top:8px;
+padding-bottom:7px;
+}
+
+.SubmenuMain li{
+display: inline;
+}
+
+.SubmenuMain li a{
+	font-family: 'MYRIADPROREGULAR';
+	font-size:16px; 
+	color:#ff4f38!important;
+	padding:10px;
+
+}
+
+.SubmenuMain li a:active{
+border-bottom: solid 2px #000;
+}
+
+
 
 
