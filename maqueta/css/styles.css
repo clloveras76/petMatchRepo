@@ -141,8 +141,6 @@ margin-top:-15px;
 
 
 
-
-
 @media screen and (max-width:990px){ 
 .logoprinc{
 width:100px;
@@ -266,7 +264,7 @@ width:320px!important;
 
 .colorCjaHome1 h2{
 		margin-top:10px;
-	margin-bottom:10px;
+	margin-bottom:10px	
 	}
 
 }
@@ -276,6 +274,15 @@ width:320px!important;
 	margin-top:10px;
 	margin-bottom:10px;
 	}
+	
+.SubmenuMain li{
+display: block!important;
+}	
+
+.submenuSuperior1 {
+height:100%!important;
+}
+
 
 }
 
@@ -293,14 +300,15 @@ margin-bottom:10px;
 @media screen and (min-width:1200px){ 
 .blqhome1{
 
-	position: absolute;
-    top: 50%;
+
+/*	position: absolute;
+    
    left: 50%;
     width:1200px;
     margin-left: -600px;
 	height: 760px;
     margin-top: -380px;
-	
+	*/
 }
 }
 /* Estilos Home  */
@@ -388,7 +396,6 @@ margin-top:5px;
 .SubmenuMain{
 width:435px;
 margin: 0 auto;
-
 padding: 0px;	
 padding-top:8px;
 padding-bottom:7px;
