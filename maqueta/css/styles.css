@@ -418,5 +418,148 @@ border-bottom: solid 2px #000;
 }
 
 
+.borderTopMsgHome {
+height:1px;
+background-color: #64aac0;
+display:block;
+width:95%;
+margin:0 auto;
+margin-top:0px;
+margin-bottom:10px;
+}
+
+.blqCtralMedio{
+ /*border:solid 1px;*/
+padding-top:15px;
+padding-left:30px;
+padding-right:30px;
+}
+
+.blqCtralIzq{
+ border:solid 1px;
+padding-top:15px;
+padding-left:30px;
+padding-right:30px;
+}
+.blqCtralDer{
+ border:solid 1px;
+padding-top:15px;
+padding-left:30px;
+padding-right:30px;
+}
 
 
+.blqmsgSup1{
+border:solid 15px #64aac0;
+padding:15px;
+background-color:#fff; 	
+line-height: 1;
+
+}
+
+.mainblq1 .blqCtralMedio .blqmsgSup1 h3{
+margin-top:0px;
+	font-size:20px;
+
+}
+/*
+.mainblq1 .blqCtralMedio .blqmsgSup1 textarea{
+font-size:14px;
+	font-family: 'MYRIADPROREGULAR';
+width:95%;
+height:95%;
+display:block;
+margin:0 auto;
+scroll: auto;
+border-radius:5px;
+}
+*/
+.mainblq1 .blqCtralMedio .blqmsgSup1 p{
+font-size:14px;
+	font-family: 'MYRIADPROREGULAR';
+
+}
+textarea#styled {
+	width:95%;
+/*	height: 60px;*/
+	border: 3px solid #cccccc;
+	padding: 5px;
+	font-size:16px;
+	font-family: 'MYRIADPROREGULAR';
+	/*font-family: Tahoma, sans-serif;*/
+	background-image: url(bg.gif);
+	background-position: bottom right;
+	background-repeat: no-repeat;
+	display:block;
+	margin:0 auto;
+	margin-bottom:0px!important;
+}
+
+
+.blqmsgSup1 .btnSubmit{
+	margin-right:18px;
+	font-size:14px;
+	font-weight:bold;
+	margin-top:0px!important;
+	float:right;
+
+}
+
+.blqmsgSup1 .ContFotPerfil{
+	float:left;
+	width:55px;
+
+}
+
+
+
+
+
+.blqmsgInf1{
+border: solid 1px #b4b4b4;
+
+padding:0px;
+background-color:#fff; 	
+line-height: 1;
+background-color:#f4f4f4;
+margin-top: 8px;
+}
+
+.brdeRedSup{
+border-top: solid 2px #be1f33;
+padding:15px;
+}
+
+
+.mainblq1 .blqCtralMedio .blqmsgInf1 h3{
+margin-top:0px;
+	font-size:20px;
+
+}
+
+.mainblq1 .blqCtralMedio .blqmsgInf1 p{
+font-size:14px;
+	font-family: 'MYRIADPROREGULAR';
+
+}
+
+.blqmsgInf1 .ContFotPerfil{
+	float:left;
+	width:55px;
+
+}
+
+
+.blqmsgInf1 .ContMsgLateral{
+	float:left;
+	max-width:515px;
+}
+
+.contIzqCmnt1{
+	float:left;
+	width:14px;
+}
+.contIzqCmnt2{
+	float:left;
+	width:500px;
+}
